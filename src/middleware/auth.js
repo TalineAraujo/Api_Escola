@@ -13,7 +13,7 @@ next()
 
 }catch(error){
 
-    return res.satus(401).json({
+    return res.status(401).json({
 
         message:"Autenticação falhou!",
         cause: error.message
